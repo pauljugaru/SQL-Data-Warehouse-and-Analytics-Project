@@ -52,18 +52,11 @@ Develop advanced SQL-based analytics to deliver actionable insights into Custome
 
 The project follows a Medallion Architecture, separating the data into three layers based on its stage of processing:
 
-![Data Architecture](docs/data_architecture.jpg)
+![Data Architecture](docs/data_architecture.png)
 
 * **Bronze Layer:** Raw data ingested directly from the ERP and CRM source files.
 * **Silver Layer:** Cleaned, standardized, and transformed data prepared for further processing.
-
-![Data Flow](docs/data_flow.jpg)
-
-![ETL Process](docs/ETL.jpg)
-
 * **Gold Layer:** Business-ready data organized into Fact and Dimension tables using a Star Schema, optimized for analytical queries and reporting.
-
-![Data Model](docs/data_model.jpg)
 
 This layered approach keeps the data processing steps organized and makes the transformation from raw data to analytical data easier to follow.
 
